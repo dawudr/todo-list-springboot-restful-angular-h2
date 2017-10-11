@@ -1,10 +1,10 @@
 # todo-list-springboot-restful-angular-h2
-Build a To-Do application with option to add/delete and mark it as completed. Also you should be to show pending and completed tasks.
+This is a To-Do application with option to add/delete and mark it as completed. It shows pending and completed tasks.
 - Front End  : AngularJS / JavaScript / Html / Css3
-- Middleware : Spring boot / Spring
-- Back end   : any in memory DB ex. H2 , MongoDB etc.
+- Middleware : Spring boot
+- Back end   : In memory DB - H2
 
-This is a SpringBoot Maven project to consume Eventful and Open Weather API's. It uses Spring MVC,RestTemplate, Jackson JSON api to consume thrid party API.
+It uses Spring MVC,RestTemplate, Jackson JSON api to consume thrid party API.
 The Form built in Angular JS filters the events by Category, City and filters by the event column names in the client front-end page.
 
 ![Alt text](screen_todolist.png?raw=true "Todo List App")
