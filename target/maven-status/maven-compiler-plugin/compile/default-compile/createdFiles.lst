@@ -1,0 +1,3 @@
+com/dawud/todo/model/Todo.class
+com/dawud/todo/Application.class
+com/dawud/todo/repository/TodoRepository.class
