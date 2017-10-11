@@ -7,6 +7,8 @@ Build a To-Do application with option to add/delete and mark it as completed. Al
 This is a SpringBoot Maven project to consume Eventful and Open Weather API's. It uses Spring MVC,RestTemplate, Jackson JSON api to consume thrid party API.
 The Form built in Angular JS filters the events by Category, City and filters by the event column names in the client front-end page.
 
+![Alt text](screen_todolist.png?raw=true "Todo List App")
+
 
 ## Running the program
 To run the application:
