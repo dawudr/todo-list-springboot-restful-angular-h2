@@ -4,9 +4,6 @@ This is a To-Do application with option to add/delete and mark it as completed. 
 - Middleware : Spring boot
 - Back end   : In memory DB - H2
 
-It uses Spring MVC,RestTemplate, Jackson JSON api to consume thrid party API.
-The Form built in Angular JS filters the events by Category, City and filters by the event column names in the client front-end page.
-
 ![Alt text](screen_todolist.png?raw=true "Todo List App")
 
 
