@@ -71,7 +71,7 @@ export class TodoService {
       return this.http
         .put(url, JSON.stringify(todo), {headers : this.headers})
         .toPromise()
-        .then(() => todo)
+            .then(() => todo)
         .catch(this.handleError);
   }
 

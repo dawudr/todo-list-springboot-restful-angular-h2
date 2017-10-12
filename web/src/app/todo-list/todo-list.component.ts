@@ -17,7 +17,8 @@ export class TodoListComponent implements OnInit {
 
   selectedTodo: Todo;
 
-  todo: Todo;
+  @Input() todo: Todo;
+
 
   constructor(private todoService: TodoService) {}
 
@@ -33,9 +34,15 @@ export class TodoListComponent implements OnInit {
      this.todoService.getPendings().then(pendings => this.pendings = pendings);
   }
 
-  update() {
-    this.todoService.update(this.todo);
+  update(todo: Todo): void {
+    console.log(todo);
+    this.todoService.update(todo).then(() => this.goBack());
   }
+
+  delete(todo: Todo): void {
+    this.todoService.delete(todo.id).then(() => this.goBack());
+  }
+
 
   ngOnInit(): void {
      this.getTodos();
@@ -44,6 +51,12 @@ export class TodoListComponent implements OnInit {
   }
 
   onSelect(todo: Todo): void {
+    console.log(todo);
+
     this.selectedTodo = todo;
+  }
+
+  goBack(): void {
+    window.location.replace('');
   }
 }
