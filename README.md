@@ -18,6 +18,7 @@ mvn spring-boot:run
 
 ```
 cd web
+npm install
 npm start
 ```
 
